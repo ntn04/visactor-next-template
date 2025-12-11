@@ -1,22 +1,22 @@
 export const metrics = [
   {
-    title: "Created Tickets",
-    value: "24,208",
-    change: -0.05,
+    title: "Vagas Criadas",
+    value: 12,
+    change: -0.10, // queda de 10% em relação ao período anterior
   },
   {
-    title: "Unsolved Tickets",
-    value: "4,564",
-    change: 0.02,
+    title: "Vagas Preenchidas",
+    value: 9,
+    change: 0.05, // aumento de 5%
   },
   {
-    title: "Resolved Tickets",
-    value: "18,208",
-    change: 0.08,
+    title: "Vagas Não Preenchidas",
+    value: 3,
+    change: 0.15, // aumento de 15%
   },
   {
-    title: "Average First Time Reply",
-    value: "12:01 min",
-    change: 0.08,
+    title: "Tempo Médio de Primeira Resposta",
+    value: "2h 30m",
+    change: -0.20, // melhorou 20% (resposta mais rápida)
   },
 ];

@@ -8,19 +8,19 @@ import LinearProgress from "./components/linear-progress";
 
 const customerSatisficationOptions = [
   {
-    label: "Positive",
+    label: "Positivo",
     color: "#5fb67a",
     percentage: customerSatisfication.positive,
     icon: <ThumbsUp className="h-6 w-6" stroke="#5fb67a" fill="#5fb67a" />,
   },
   {
-    label: "Neutral",
+    label: "Neutro",
     color: "#f5c36e",
     percentage: customerSatisfication.neutral,
     icon: <ThumbsUp className="h-6 w-6" stroke="#f5c36e" fill="#f5c36e" />,
   },
   {
-    label: "Negative",
+    label: "Negativo",
     color: "#da6d67",
     percentage: customerSatisfication.negative,
     icon: <ThumbsDown className="h-6 w-6" stroke="#da6d67" fill="#da6d67" />,
@@ -52,8 +52,8 @@ export default function CustomerSatisfication() {
 function TotalCustomers() {
   return (
     <div className="flex flex-col items-start justify-center">
-      <div className="text-xs text-muted-foreground">Responses Received</div>
-      <div className="text-2xl font-medium">{totalCustomers} Customers</div>
+      <div className="text-xs text-muted-foreground">MyNorth Recebidos</div>
+      <div className="text-2xl font-medium">{totalCustomers} Candidatos</div>
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default function MetricCard({
         <span className="text-xl font-medium">{value}</span>
         <ChangeIndicator change={change} />
       </div>
-      <div className="text-xs text-muted-foreground">Compare to last month</div>
+      <div className="text-xs text-muted-foreground">Comparado com o mês passado</div>
     </section>
   );
 }

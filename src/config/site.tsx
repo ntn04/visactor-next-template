@@ -8,8 +8,8 @@ export type Navigation = {
 };
 
 export const siteConfig = {
-  title: "VisActor Next Template",
-  description: "Template for VisActor and Next.js",
+  title: "RH+",
+  description: "Gerência de RH",
 };
 
 export const navigations: Navigation[] = [
@@ -20,7 +20,12 @@ export const navigations: Navigation[] = [
   },
   {
     icon: MessagesSquare,
-    name: "Ticket",
-    href: "/ticket",
+    name: "Vagas",
+    href: "/vagas",
+  },
+  {
+    icon: MessagesSquare,
+    name: "Materiais",
+    href: "/materiais",
   },
 ];

@@ -1,18 +1,14 @@
 export const convertions = [
   {
-    name: "Bandung",
-    value: 3260,
+    name: "Adminstrativo",
+    value: 3,
   },
   {
-    name: "Yogyakarta",
-    value: 12320,
+    name: "Técnica",
+    value: 5,
   },
   {
-    name: "Jakarta",
-    value: 1320,
-  },
-  {
-    name: "Kebumen",
-    value: 320,
+    name: "Comercial",
+    value: 3,
   },
 ];
